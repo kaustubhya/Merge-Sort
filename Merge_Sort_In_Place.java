@@ -44,7 +44,7 @@ public class Merge_Sort_In_Place {
             k++;
         }
 
-        // Adding the left elements
+        // Adding the remaining elements
 
         while(i < mid) {
             mix[k] = arr[i];
